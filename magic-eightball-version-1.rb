@@ -58,6 +58,7 @@ def second_menu
     user_input
 
   elsif question == "Will I make it through this class?"
+    puts "Deciding..."
     sleep (3)
     puts "The world will never know!"
     sleep (1)
@@ -82,6 +83,7 @@ def print_menu
   puts "Ask a question?"
   question = gets.strip
   if question == "Will I make it through this class?"
+    puts "Deciding..."
     sleep (3)
     puts "The world will never know!"
   else
